@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 12px; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+b, strong {
+  font-weight: normal; }
+
+i, em {
+  font-style: normal; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.clearfix:after {
+  display: block;
+  content: '';
+  clear: both; }
+
+.clearfix {
+  zoom: 1; }
+
+input {
+  border: none;
+  padding: 0;
+  outline: none;
+  background: none; }
+
+textarea {
+  resize: none; }
+
+table {
+  border-collapse: collapse; }
+
+img {
+  vertical-align: top; }
+
+body {
+  font-size: 20px; }
+  body header {
+    width: 16rem;
+    height: 2.3rem;
+    background: #262626;
+    border-bottom: 0.1rem solid #4bccae;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f8f8f8;
+    font-size: 0.95rem; }
+    body header .menu {
+      width: 1.5rem;
+      height: 1.2rem;
+      background: url(../img/menu-bg.png) no-repeat;
+      background-size: 1.5rem 1.2rem;
+      text-indent: -999em;
+      margin-left: 0.4rem; }
+    body header .change-tv {
+      width: 1.5rem;
+      height: 1.2rem;
+      background: url(../img/pc-bg.png) no-repeat;
+      background-size: 1.5rem 1.2rem;
+      text-indent: -999em;
+      margin-right: 0.4rem; }
+    body .user-box {
+    width: 16rem;
+    height: 2.05rem;
+    border-bottom: 0.025rem solid #d4e6f4;
+    background: red;
+    display: flex; }
+    body .user-box a {
+      flex: 1; }

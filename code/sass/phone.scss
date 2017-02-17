@@ -1,0 +1,51 @@
+@import 'base.scss';
+
+$a:#ff0;
+
+body{
+	font-size:20px;
+	header{
+		width:16rem;
+		height:2.3rem;
+		background:#262626;
+		border-bottom:0.1rem solid #4bccae;
+		display:flex;
+		justify-content:space-between;
+		align-items:center;
+		color:#f8f8f8;
+		font-size:0.95rem;
+		.menu{
+			width:1.5rem;
+			height:1.2rem;
+			background:url(../img/menu-bg.png) no-repeat;
+			background-size:1.5rem 1.2rem;
+			text-indent:-999em;
+			margin-left:0.4rem;
+		}
+		.change-tv{
+			width:1.5rem;
+			height:1.2rem;
+			background:url(../img/pc-bg.png) no-repeat;
+			background-size:1.5rem 1.2rem;
+			text-indent:-999em;
+			margin-right:0.4rem;
+		}
+	}
+	.user-box{
+		width:16rem;
+		height:2.1rem;
+		background:red;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		a{
+			-webkit-box-flex:1;
+			flex:1
+			height:1.5rem;
+			background:blue;
+			line-height:1.5rem;
+			border-right:0.05rem solid #e6e6e6;
+			box-sizing:content-box;
+		}
+	}
+}
